@@ -1,0 +1,69 @@
+/* Any CSS you use to flesh out your UI can go here */
+
+* {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container {
+background-image: url('https://www.arteleonardo.com/image/1529659659-cinema%20stelle.jpg?folder=post');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.movieSearcher {
+    width: 800px;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    margin: 0px auto;
+    background-color: rgba(113, 9, 183,0.8);
+    border-radius: 5px;
+    color: #d8d8d6;
+}
+
+button{
+    background-color: lightseagreen;
+    margin-top: 15px;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius:5px ;
+}
+
+#searchMovie {
+width: 600px;
+}
+
+#movieResult{
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px;
+       height: 500px;
+       width: 800px;
+       height: 300px;
+       padding: 50px;
+       text-align: center;
+       margin: 0px auto;
+       overflow-x: auto;
+       display: flex;
+}
+
+.custom-width{
+    width:33%;
+}
+.block{
+    margin: 5px;
+    height: 150px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.block img {
+    height: 250px;
+}
+
+a.seeMovie {
+    width: 250px;
+    height: 50px;
+    background-color: lightskyblue;
+    color: #ffffff;
+}
+
